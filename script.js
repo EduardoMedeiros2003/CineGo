@@ -1,24 +1,29 @@
 let cardContainer = document.querySelector(".card-container");
 let dados = [];
 
-// Adiciona um "ouvinte" que espera o conteúdo da página carregar completamente.
-document.addEventListener('DOMContentLoaded', () => {
-    // Encontra o botão no HTML pelo seu ID.
-    const botaoBusca = document.getElementById('botao-busca');
-
-    // Adiciona o evento de clique ao botão, que chamará a função 'iniciaBusca'.
-    botaoBusca.addEventListener('click', iniciaBusca);
-});
-
-async function iniciaBusca() {
+async function carregarDadosIniciais() {
     let resposta = await fetch("data.json");
     dados = await resposta.json();
     renderizarCards(dados);
 }
 
-function renderizarCards(dados) {
-    cardContainer.innerHTML = ""; // Limpa o container antes de adicionar novos cards
-    for (let item of dados) {
+function iniciaBusca(event) {
+    event.preventDefault(); // impede o formulário de recarregar a página
+
+    const campoBusca = document.getElementById('campo-busca');
+    const termo = campoBusca.value.toLowerCase().trim();
+
+    const filtrado = dados.filter(item =>
+        item.nome.toLowerCase().includes(termo)
+    );
+
+    renderizarCards(filtrado);
+}
+
+function renderizarCards(lista) {
+    cardContainer.innerHTML = "";
+
+    lista.forEach(item => {
         let article = document.createElement("article");
         article.classList.add("card");
         article.innerHTML = `
@@ -28,13 +33,18 @@ function renderizarCards(dados) {
                 <span class="card-genero">${item.genero}</span>
             </div>
             <p class="card-descricao">${item.descricao}</p>
-            <a href="${item.trailer}" class="card-trailer" target="_blank" rel="noopener noreferrer">
+            <a href="${item.trailer}" class="card-trailer" target="_blank">
                 Ver Trailer
             </a>
         `;
         cardContainer.appendChild(article);
-    }
+    });
 }
 
-// Inicia a busca assim que a página carrega para já exibir os filmes
-document.addEventListener('DOMContentLoaded', iniciaBusca);
+document.addEventListener('DOMContentLoaded', () => {
+    carregarDadosIniciais();
+
+    // ativa a busca pelo botão ou apertando Enter
+    const formulario = document.getElementById('search-form');
+    formulario.addEventListener('submit', iniciaBusca);
+});

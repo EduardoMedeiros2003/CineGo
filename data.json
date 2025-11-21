@@ -1,0 +1,162 @@
+[
+    {
+        "nome": "Interestelar",
+        "ano": 2014,
+        "genero": "Ficção Científica",
+        "diretor": "Christopher Nolan",
+        "trailer": "https://www.youtube.com/watch?v=Lm8p5rlrSkY",
+        "descricao": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço em uma tentativa de garantir a sobrevivência da humanidade."
+    },
+    {
+        "nome": "Matrix",
+        "ano": 1999,
+        "genero": "Ficção Científica",
+        "diretor": "Lana Wachowski, Lilly Wachowski",
+        "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+        "descricao": "Um hacker descobre que a realidade como ele conhece é uma simulação construída por máquinas para subjugar a humanidade."
+    },
+    {
+        "nome": "Pulp Fiction: Tempo de Violência",
+        "ano": 1994,
+        "genero": "Crime",
+        "diretor": "Quentin Tarantino",
+        "trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+        "descricao": "Várias histórias de crime e violência se entrelaçam na vida de criminosos em Los Angeles."
+    },
+    {
+        "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+        "ano": 2001,
+        "genero": "Fantasia",
+        "diretor": "Peter Jackson",
+        "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+        "descricao": "Um hobbit recebe a missão de destruir um anel mágico para impedir que um Lorde das Trevas domine a Terra-média."
+    },
+    {
+        "nome": "Parasita",
+        "ano": 2019,
+        "genero": "Suspense",
+        "diretor": "Bong Joon-ho",
+        "trailer": "https://www.youtube.com/watch?v=5xH0Pg2gJ_s",
+        "descricao": "Uma família pobre se infiltra na vida de uma família rica, desencadeando uma série de eventos inesperados e sombrios."
+    },
+    {
+        "nome": "O Poderoso Chefão",
+        "ano": 1972,
+        "genero": "Crime",
+        "diretor": "Francis Ford Coppola",
+        "trailer": "https://www.youtube.com/watch?v=sY1S34973zA",
+        "descricao": "A saga da família Corleone, uma poderosa família da máfia italiana em Nova York, e sua luta pelo poder."
+    },
+    {
+        "nome": "Batman: O Cavaleiro das Trevas",
+        "ano": 2008,
+        "genero": "Ação",
+        "diretor": "Christopher Nolan",
+        "trailer": "https://www.youtube.com/watch?v=EXe4z8d6_1Q",
+        "descricao": "Batman enfrenta o Coringa, um criminoso psicótico que espalha o caos em Gotham City."
+    },
+    {
+        "nome": "A Origem",
+        "ano": 2010,
+        "genero": "Ficção Científica",
+        "diretor": "Christopher Nolan",
+        "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "descricao": "Um ladrão especializado em extrair segredos do subconsciente alheio recebe a tarefa de plantar uma ideia na mente de um CEO."
+    },
+    {
+        "nome": "Clube da Luta",
+        "ano": 1999,
+        "genero": "Drama",
+        "diretor": "David Fincher",
+        "trailer": "https://www.youtube.com/watch?v=BdJKm16Co6M",
+        "descricao": "Um homem insatisfeito com sua vida encontra um companheiro e juntos eles criam um clube de luta underground."
+    },
+    {
+        "nome": "Forrest Gump: O Contador de Histórias",
+        "ano": 1994,
+        "genero": "Drama",
+        "diretor": "Robert Zemeckis",
+        "trailer": "https://www.youtube.com/watch?v=bT_Q_7L6K2M",
+        "descricao": "A vida de Forrest Gump, um homem com um baixo QI que testemunha e influencia alguns dos momentos mais importantes da história americana."
+    },
+    {
+        "nome": "O Silêncio dos Inocentes",
+        "ano": 1991,
+        "genero": "Suspense",
+        "diretor": "Jonathan Demme",
+        "trailer": "https://www.youtube.com/watch?v=lQyQ10b7774",
+        "descricao": "Uma agente do FBI busca a ajuda de um brilhante e manipulador assassino para capturar outro serial killer."
+    },
+    {
+        "nome": "A Viagem de Chihiro",
+        "ano": 2001,
+        "genero": "Animação",
+        "diretor": "Hayao Miyazaki",
+        "trailer": "https://www.youtube.com/watch?v=ByXuk9QqxK8",
+        "descricao": "Uma garota se aventura em um mundo mágico para salvar seus pais, que foram transformados em porcos."
+    },
+    {
+        "nome": "Cidade de Deus",
+        "ano": 2002,
+        "genero": "Crime",
+        "diretor": "Fernando Meirelles, Kátia Lund",
+        "trailer": "https://www.youtube.com/watch?v=ioUE_5VDxQY",
+        "descricao": "A vida no Cidade de Deus, uma favela no Rio de Janeiro, vista pelos olhos de um jovem fotógrafo."
+    },
+    {
+        "nome": "Gladiador",
+        "ano": 2000,
+        "genero": "Ação",
+        "diretor": "Ridley Scott",
+        "trailer": "https://www.youtube.com/watch?v=owGfK-c7Y7E",
+        "descricao": "Um general romano é traído e forçado a se tornar um gladiador para buscar vingança contra o imperador corrupto."
+    },
+    {
+        "nome": "O Resgate do Soldado Ryan",
+        "ano": 1998,
+        "genero": "Guerra",
+        "diretor": "Steven Spielberg",
+        "trailer": "https://www.youtube.com/watch?v=RYExU0e4b8Q",
+        "descricao": "Durante a Segunda Guerra Mundial, um grupo de soldados americanos parte em uma perigosa missão para encontrar e resgatar um soldado cujos irmãos foram mortos em combate."
+    },
+    {
+        "nome": "De Volta para o Futuro",
+        "ano": 1985,
+        "genero": "Ficção Científica",
+        "diretor": "Robert Zemeckis",
+        "trailer": "https://www.youtube.com/watch?v=qvC_b1lFj6o",
+        "descricao": "Um jovem viaja acidentalmente para o passado em uma máquina do tempo e precisa garantir que seus pais se apaixonem para não alterar o futuro."
+    },
+    {
+        "nome": "Jurassic Park: O Parque dos Dinossauros",
+        "ano": 1993,
+        "genero": "Aventura",
+        "diretor": "Steven Spielberg",
+        "trailer": "https://www.youtube.com/watch?v=lc0UehYemQA",
+        "descricao": "Um parque temático com dinossauros geneticamente recriados se torna um pesadelo quando as criaturas escapam e ameaçam os visitantes."
+    },
+    {
+        "nome": "O Iluminado",
+        "ano": 1980,
+        "genero": "Terror",
+        "diretor": "Stanley Kubrick",
+        "trailer": "https://www.youtube.com/watch?v=3b726fgc64Q",
+        "descricao": "Uma família se isola em um hotel assombrado durante o inverno, e o pai começa a sofrer de distúrbios mentais."
+    },
+    {
+        "nome": "Star Wars: Episódio V - O Império Contra-Ataca",
+        "ano": 1980,
+        "genero": "Fantasia",
+        "diretor": "Irvin Kershner",
+        "trailer": "https://www.youtube.com/watch?v=JNwK_Jb051w",
+        "descricao": "Luke Skywalker continua seu treinamento Jedi enquanto a Aliança Rebelde enfrenta o Império Galáctico."
+    },
+    {
+        "nome": "Mad Max: Estrada da Fúria",
+        "ano": 2015,
+        "genero": "Ação",
+        "diretor": "George Miller",
+        "trailer": "https://www.youtube.com/watch?v=hEJnERoG6Jc",
+        "descricao": "Em um mundo pós-apocalíptico, uma mulher se rebela contra um governante tirano em busca de sua terra natal com a ajuda de um grupo de prisioneiras, um andarilho chamado Max e um seguidor."
+    }
+]

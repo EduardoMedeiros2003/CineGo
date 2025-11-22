@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* ======== Cores Globais ======== */
 :root {
-    --cor-primaria: #141414;
-    --cor-secundaria: #2d2d2d;
-    --cor-texto-principal: #e5e5e5;
-    --cor-texto-secundario: #b3b3b3;
+    --cor-primaria: #0f0f0f;
+    --cor-secundaria: #1a1a1a;
+    --cor-card: #181818;
+    --cor-texto-principal: #f2f2f2;
+    --cor-texto-secundario: #9a9a9a;
     --cor-destaque: #e50914;
+    --cor-destaque-hover: #ff0a16;
 }
 
+/* ======== Reset ======== */
 * {
     margin: 0;
     padding: 0;
@@ -21,80 +25,96 @@ body {
     line-height: 1.6;
 }
 
+/* ======== HEADER ======== */
 header {
-    padding: 2rem;
+    padding: 2.5rem 1rem;
     text-align: center;
     border-bottom: 1px solid var(--cor-secundaria);
 }
 
 header h1 {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.8rem, 4vw, 3rem);
 }
 
 #search-form {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap; /* responsivo */
 }
 
-#search-input {
-    padding: 0.75rem;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid var(--cor-texto-secundario);
+#campo-busca {
+    padding: 0.9rem;
+    width: min(300px, 80%);
+    border-radius: 6px;
+    border: 1px solid var(--cor-secundaria);
     background-color: var(--cor-secundaria);
     color: var(--cor-texto-principal);
     font-size: 1rem;
+    transition: 0.2s;
+}
+
+#campo-busca:focus {
+    outline: none;
+    border-color: var(--cor-destaque);
+    box-shadow: 0 0 6px var(--cor-destaque);
 }
 
 #botao-busca {
-    padding: 0.75rem 1.5rem;
+    padding: 0.9rem 1.6rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: var(--cor-destaque);
     color: white;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #botao-busca:hover {
-    background-color: #f40612;
+    background-color: var(--cor-destaque-hover);
+    transform: scale(1.03);
 }
 
+/* ======== MAIN ======== */
 main {
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
+/* GRID RESPONSIVO */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.5rem;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
+/* ======== CARDS ======== */
 .card {
-    background-color: var(--cor-secundaria);
-    border-radius: 8px;
+    background-color: var(--cor-card);
+    border-radius: 10px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .card-titulo {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
     color: white;
+    font-weight: 700;
 }
 
 .card-info {
@@ -106,39 +126,57 @@ main {
 }
 
 .card-descricao {
-    flex-grow: 1; /* Faz a descrição ocupar o espaço disponível */
+    flex-grow: 1;
     margin-bottom: 1.5rem;
+    color: var(--cor-texto-secundario);
+    font-size: 0.95rem;
 }
 
 .card-trailer {
     display: inline-block;
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.8rem;
     background-color: var(--cor-destaque);
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .card-trailer:hover {
-    background-color: #f40612;
+    background-color: var(--cor-destaque-hover);
+    transform: scale(1.03);
 }
 
+/* ======== FOOTER ======== */
 footer {
     text-align: center;
-    padding: 2rem;
+    padding: 2.5rem 1rem;
     margin-top: 2rem;
     border-top: 1px solid var(--cor-secundaria);
     color: var(--cor-texto-secundario);
+    font-size: 0.9rem;
 }
 
 footer a {
     color: var(--cor-destaque);
     text-decoration: none;
+    transition: 0.3s ease;
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: var(--cor-destaque-hover);
+}
+
+/* ======== RESPONSIVIDADE EXTRA ======== */
+@media (max-width: 500px) {
+    #campo-busca {
+        width: 100%;
+    }
+
+    .card {
+        padding: 1.2rem;
+    }
 }

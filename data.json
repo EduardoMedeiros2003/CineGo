@@ -158,5 +158,407 @@
         "diretor": "George Miller",
         "trailer": "https://www.youtube.com/watch?v=hEJnERoG6Jc",
         "descricao": "Em um mundo pós-apocalíptico, uma mulher se rebela contra um governante tirano em busca de sua terra natal com a ajuda de um grupo de prisioneiras, um andarilho chamado Max e um seguidor."
+    },
+    
+    {
+        "nome": "A Rede Social",
+        "ano": 2010,
+        "genero": "Drama",
+        "diretor": "David Fincher",
+        "trailer": "https://www.youtube.com/watch?v=lB95KLmpLR4",
+        "descricao": "A história da criação do Facebook e os conflitos entre seus fundadores."
+    },
+    {
+        "nome": "O Grande Truque",
+        "ano": 2006,
+        "genero": "Suspense",
+        "diretor": "Christopher Nolan",
+        "trailer": "https://www.youtube.com/watch?v=ijXruSzfGEc",
+        "descricao": "Dois ilusionistas rivais entram em uma disputa mortal para criar o truque perfeito."
+    },
+    {
+        "nome": "Whiplash: Em Busca da Perfeição",
+        "ano": 2014,
+        "genero": "Drama",
+        "diretor": "Damien Chazelle",
+        "trailer": "https://www.youtube.com/watch?v=7d_jQycdQGo",
+        "descricao": "Um jovem baterista enfrenta o treinamento brutal de um instrutor obsessivo."
+    },
+    {
+        "nome": "O Regresso",
+        "ano": 2015,
+        "genero": "Aventura",
+        "diretor": "Alejandro G. Iñárritu",
+        "trailer": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+        "descricao": "Um caçador luta para sobreviver após ser abandonado por seus companheiros."
+    },
+    {
+        "nome": "Django Livre",
+        "ano": 2012,
+        "genero": "Faroeste",
+        "diretor": "Quentin Tarantino",
+        "trailer": "https://www.youtube.com/watch?v=eUdM9vrCbow",
+        "descricao": "Um escravo liberto se une a um caçador de recompensas para salvar sua esposa."
+    },
+    {
+        "nome": "O Lobo de Wall Street",
+        "ano": 2013,
+        "genero": "Biografia",
+        "diretor": "Martin Scorsese",
+        "trailer": "https://www.youtube.com/watch?v=iszwuX1AK6A",
+        "descricao": "A ascensão e queda de um ambicioso corretor da bolsa envolvido em fraudes."
+    },
+    {
+        "nome": "Her",
+        "ano": 2013,
+        "genero": "Romance",
+        "diretor": "Spike Jonze",
+        "trailer": "https://www.youtube.com/watch?v=WzV6mXIOVl4",
+        "descricao": "Um homem solitário desenvolve um relacionamento com uma inteligência artificial."
+    },
+    {
+        "nome": "A Chegada",
+        "ano": 2016,
+        "genero": "Ficção Científica",
+        "diretor": "Denis Villeneuve",
+        "trailer": "https://www.youtube.com/watch?v=tFMo3UJ4B4g",
+        "descricao": "Uma linguista é convocada para se comunicar com seres extraterrestres misteriosos."
+    },
+    {
+        "nome": "La La Land: Cantando Estações",
+        "ano": 2016,
+        "genero": "Musical",
+        "diretor": "Damien Chazelle",
+        "trailer": "https://www.youtube.com/watch?v=0pdqf4P9MB8",
+        "descricao": "Um pianista e uma atriz lutam para equilibrar amor e ambições em Los Angeles."
+    },
+    {
+        "nome": "O Quarto de Jack",
+        "ano": 2015,
+        "genero": "Drama",
+        "diretor": "Lenny Abrahamson",
+        "trailer": "https://www.youtube.com/watch?v=E_Ci-pAL4eE",
+        "descricao": "Uma mãe e seu filho buscam liberdade após anos presos em um pequeno quarto."
+    },
+    {
+        "nome": "A Teoria de Tudo",
+        "ano": 2014,
+        "genero": "Biografia",
+        "diretor": "James Marsh",
+        "trailer": "https://www.youtube.com/watch?v=LUayjO_KgsQ",
+        "descricao": "A história do físico Stephen Hawking e seu relacionamento com sua esposa."
+    },
+    {
+        "nome": "Os Suspeitos",
+        "ano": 2013,
+        "genero": "Suspense",
+        "diretor": "Denis Villeneuve",
+        "trailer": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
+        "descricao": "Dois pais tomam medidas extremas após o desaparecimento de suas filhas."
+    },
+    {
+        "nome": "Gravidade",
+        "ano": 2013,
+        "genero": "Ficção Científica",
+        "diretor": "Alfonso Cuarón",
+        "trailer": "https://www.youtube.com/watch?v=OiTiKOy59o4",
+        "descricao": "Uma astronauta luta pela sobrevivência após um acidente no espaço."
+    },
+    {
+        "nome": "A Vida é Bela",
+        "ano": 1997,
+        "genero": "Drama",
+        "diretor": "Roberto Benigni",
+        "trailer": "https://www.youtube.com/watch?v=pAYEQP8gx3w",
+        "descricao": "Um pai usa humor para proteger o filho dos horrores da guerra."
+    },
+    {
+        "nome": "O Pianista",
+        "ano": 2002,
+        "genero": "Biografia",
+        "diretor": "Roman Polanski",
+        "trailer": "https://www.youtube.com/watch?v=u_jE7-6Uv7E",
+        "descricao": "A vida de um pianista judeu durante a ocupação nazista na Polônia."
+    },
+    {
+        "nome": "Cisne Negro",
+        "ano": 2010,
+        "genero": "Drama",
+        "diretor": "Darren Aronofsky",
+        "trailer": "https://www.youtube.com/watch?v=5jaI1XOB-bs",
+        "descricao": "Uma bailarina enfrenta pressão extrema ao tentar alcançar a perfeição."
+    },
+    {
+        "nome": "O Artista",
+        "ano": 2011,
+        "genero": "Romance",
+        "diretor": "Michel Hazanavicius",
+        "trailer": "https://www.youtube.com/watch?v=OK7pfLlsUQM",
+        "descricao": "Um astro do cinema mudo enfrenta dificuldades durante a transição para filmes falados."
+    },
+    {
+        "nome": "A Forma da Água",
+        "ano": 2017,
+        "genero": "Fantasia",
+        "diretor": "Guillermo del Toro",
+        "trailer": "https://www.youtube.com/watch?v=XFYWazblaUA",
+        "descricao": "Uma zeladora se apaixona por uma criatura aquática mantida em cativeiro."
+    },
+    {
+        "nome": "Moonlight: Sob a Luz do Luar",
+        "ano": 2016,
+        "genero": "Drama",
+        "diretor": "Barry Jenkins",
+        "trailer": "https://www.youtube.com/watch?v=9NJj12tJzqc",
+        "descricao": "A jornada de um jovem negro descobrindo sua identidade em um bairro difícil."
+    },
+    {
+        "nome": "O Grande Hotel Budapeste",
+        "ano": 2014,
+        "genero": "Comédia",
+        "diretor": "Wes Anderson",
+        "trailer": "https://www.youtube.com/watch?v=1Fg5iWmQjwk",
+        "descricao": "As aventuras de um concierge e seu aprendiz em um excêntrico hotel europeu."
+    },
+    {
+        "nome": "Perdido em Marte",
+        "ano": 2015,
+        "genero": "Ficção Científica",
+        "diretor": "Ridley Scott",
+        "trailer": "https://www.youtube.com/watch?v=ej3ioOneTy8",
+        "descricao": "Um astronauta luta pela vida após ser deixado para trás em Marte."
+    },
+    {
+        "nome": "O Jogo da Imitação",
+        "ano": 2014,
+        "genero": "Biografia",
+        "diretor": "Morten Tyldum",
+        "trailer": "https://www.youtube.com/watch?v=S5CjKEFb-sM",
+        "descricao": "A história de Alan Turing e sua equipe que ajudou a decifrar códigos nazistas."
+    },
+    {
+        "nome": "Argo",
+        "ano": 2012,
+        "genero": "Drama",
+        "diretor": "Ben Affleck",
+        "trailer": "https://www.youtube.com/watch?v=JW3WfSFmn3s",
+        "descricao": "Uma operação secreta tenta resgatar diplomatas americanos durante a crise no Irã."
+    },
+    {
+        "nome": "Réquiem para um Sonho",
+        "ano": 2000,
+        "genero": "Drama",
+        "diretor": "Darren Aronofsky",
+        "trailer": "https://www.youtube.com/watch?v=jzk-lmU4KZ4",
+        "descricao": "Quatro pessoas enfrentam a destruição causada pelo vício."
+    },
+    {
+        "nome": "O Segredo dos Seus Olhos",
+        "ano": 2009,
+        "genero": "Suspense",
+        "diretor": "Juan José Campanella",
+        "trailer": "https://www.youtube.com/watch?v=JQyosCZ45cg",
+        "descricao": "Um analista judicial investiga um crime brutal enquanto revive memórias do passado."
+    },
+  
+    {
+        "nome": "Titanic",
+        "ano": 1997,
+        "genero": "Romance/Drama",
+        "diretor": "James Cameron",
+        "trailer": "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
+        "descricao": "Um jovem casal de diferentes classes sociais vive um romance a bordo do infame navio Titanic, enquanto a tragédia se aproxima."
+    },
+    {
+        "nome": "Se7en",
+        "ano": 1995,
+        "genero": "Suspense/Crime",
+        "diretor": "David Fincher",
+        "trailer": "https://www.youtube.com/watch?v=znmZoVkCjpI",
+        "descricao": "Dois detetives investigam um serial killer que baseia seus crimes nos sete pecados capitais."
+    },
+    {
+        "nome": "Blade Runner",
+        "ano": 1982,
+        "genero": "Ficção Científica/Noir",
+        "diretor": "Ridley Scott",
+        "trailer": "https://www.youtube.com/watch?v=eogpIG53Cis",
+        "descricao": "Num futuro distópico, um caçador de replicantes enfrenta dilemas morais enquanto persegue androides fugitivos."
+    },
+    {
+        "nome": "Blade Runner 2049",
+        "ano": 2017,
+        "genero": "Ficção Científica",
+        "diretor": "Denis Villeneuve",
+        "trailer": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+        "descricao": "Trinta anos após os eventos do original, um novo blade runner descobre um segredo que pode desestabilizar a sociedade."
+    },
+    {
+        "nome": "O Fabuloso Destino de Amélie Poulain",
+        "ano": 2001,
+        "genero": "Comédia/Romance",
+        "diretor": "Jean-Pierre Jeunet",
+        "trailer": "https://www.youtube.com/watch?v=sECzJY07oPo",
+        "descricao": "Amélie, uma jovem sonhadora em Paris, decide melhorar a vida das pessoas ao seu redor e acaba encontrando o amor."
+    },
+    {
+        "nome": "À Espera de um Milagre",
+        "ano": 1999,
+        "genero": "Drama/Fantasia",
+        "diretor": "Frank Darabont",
+        "trailer": "https://www.youtube.com/watch?v=Ki4haFrqSrw",
+        "descricao": "Um guarda de prisão testemunha eventos extraordinários ligados a um prisioneiro com dons incomuns."
+    },
+    {
+        "nome": "Os Infiltrados",
+        "ano": 2006,
+        "genero": "Crime/Drama",
+        "diretor": "Martin Scorsese",
+        "trailer": "https://www.youtube.com/watch?v=iojhqm0JTW4",
+        "descricao": "Polícia e máfia tentam descobrir traidores em suas próprias fileiras em um jogo perigoso de identidades falsas."
+    },
+    {
+        "nome": "Chinatown",
+        "ano": 1974,
+        "genero": "Mistério/Noir",
+        "diretor": "Roman Polanski",
+        "trailer": "https://www.youtube.com/watch?v=9Q1gYb8F3tI",
+        "descricao": "Um detetive particular se envolve em um caso que revela corrupção e segredos sombrios em Los Angeles."
+    },
+    {
+        "nome": "Fogo Contra Fogo",
+        "ano": 1995,
+        "genero": "Ação/Crime",
+        "diretor": "Michael Mann",
+        "trailer": "https://www.youtube.com/watch?v=X5f3-vI3b2k",
+        "descricao": "Um policial e um assaltante de banco desenvolvem um jogo de gato e rato urbano, entre perseguições e dilemas morais."
+    },
+    {
+        "nome": "Onde os Fracos Não Têm Vez",
+        "ano": 2007,
+        "genero": "Crime/Thriller",
+        "diretor": "Joel e Ethan Coen",
+        "trailer": "https://www.youtube.com/watch?v=38A__WT3-o0",
+        "descricao": "Um caçador encontra dinheiro de um crime que mudou sua vida; um assassino implacável persegue suas vítimas sem piedade."
+    },
+    {
+        "nome": "Fargo",
+        "ano": 1996,
+        "genero": "Crime/Comédia Negra",
+        "diretor": "Joel e Ethan Coen",
+        "trailer": "https://www.youtube.com/watch?v=3GwjfUFyY6s",
+        "descricao": "Um sequestro dá errado e desencadeia uma série de acontecimentos trágicos e absurdos numa pequena cidade do Meio-Oeste."
+    },
+    {
+        "nome": "Um Sonho de Liberdade",
+        "ano": 1994,
+        "genero": "Drama",
+        "diretor": "Frank Darabont",
+        "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+        "descricao": "A história de amizade, esperança e resistência de dois homens encarcerados em uma penitenciária durante décadas."
+    },
+    {
+        "nome": "Laranja Mecânica",
+        "ano": 1971,
+        "genero": "Distopia/Psicológico",
+        "diretor": "Stanley Kubrick",
+        "trailer": "https://www.youtube.com/watch?v=SPRzm8ibDQ8",
+        "descricao": "Num futuro autoritário, um jovem violento é submetido a um tratamento experimental que questiona liberdade e moralidade."
+    },
+    {
+        "nome": "As Aventuras de Pi",
+        "ano": 2012,
+        "genero": "Aventura/Drama",
+        "diretor": "Ang Lee",
+        "trailer": "https://www.youtube.com/watch?v=mZe_3ZXQ7vs",
+        "descricao": "Um jovem sobrevive a um naufrágio em um bote salva-vidas com um tigre de Bengala, numa jornada de fé e sobrevivência."
+    },
+    {
+        "nome": "Donnie Darko",
+        "ano": 2001,
+        "genero": "Ficção Científica/Psicológico",
+        "diretor": "Richard Kelly",
+        "trailer": "https://www.youtube.com/watch?v=zz5lRtZ0aSM",
+        "descricao": "Um adolescente problemático tem visões perturbadoras e começa a questionar a natureza do tempo e da realidade."
+    },
+    {
+        "nome": "O Grande Lebowski",
+        "ano": 1998,
+        "genero": "Comédia/Crime",
+        "diretor": "Joel e Ethan Coen",
+        "trailer": "https://www.youtube.com/watch?v=cd-go0oBF4Y",
+        "descricao": "Um equívoco envolvendo um milionário arrasta um 'cara' pacato para uma confusão com vigaristas e sequestradores."
+    },
+    {
+        "nome": "Trainspotting",
+        "ano": 1996,
+        "genero": "Drama/Comédia Negra",
+        "diretor": "Danny Boyle",
+        "trailer": "https://www.youtube.com/watch?v=py2X3qQ5XbQ",
+        "descricao": "Um grupo de jovens escoceses lida com vício, amizade e escolhas que moldam seu futuro."
+    },
+    {
+        "nome": "O Barco - Inferno no Mar",
+        "ano": 1981,
+        "genero": "Guerra/Drama",
+        "diretor": "Wolfgang Petersen",
+        "trailer": "https://www.youtube.com/watch?v=0F0JvV2gW2w",
+        "descricao": "A vida a bordo de um submarino alemão durante a Segunda Guerra Mundial, retratada em tensão e claustrofobia."
+    },
+    {
+        "nome": "Zodíaco",
+        "ano": 2007,
+        "genero": "Crime/Investigação",
+        "diretor": "David Fincher",
+        "trailer": "https://www.youtube.com/watch?v=6ljkCG2Y7g4",
+        "descricao": "A investigação obsessiva sobre o assassino Zodíaco que aterrorizou a Califórnia, contada a partir de várias perspectivas."
+    },
+    {
+        "nome": "Mulholland Drive",
+        "ano": 2001,
+        "genero": "Mistério/Suspense",
+        "diretor": "David Lynch",
+        "trailer": "https://www.youtube.com/watch?v=3o6g8X7bJQo",
+        "descricao": "Um quebra-cabeça cinematográfico sobre identidade, sonhos e os cantos escuros de Hollywood."
+    },
+    {
+        "nome": "Doze Homens e uma Sentença",
+        "ano": 1957,
+        "genero": "Drama/Justiça",
+        "diretor": "Sidney Lumet",
+        "trailer": "https://www.youtube.com/watch?v=A7CBKT0PWFA",
+        "descricao": "Doze jurados isolados discutem a culpa de um jovem acusado, e o debate revela preconceitos e verdades humanas."
+    },
+    {
+        "nome": "Brilho Eterno de uma Mente sem Lembranças",
+        "ano": 2004,
+        "genero": "Romance/Ficção Científica",
+        "diretor": "Michel Gondry",
+        "trailer": "https://www.youtube.com/watch?v=0zFywiAh5ds",
+        "descricao": "Após um término traumático, um casal recorre a um procedimento para apagar memórias, questionando amor e identidade."
+    },
+    {
+        "nome": "Spotlight: Segredos Revelados",
+        "ano": 2015,
+        "genero": "Drama/Investigativo",
+        "diretor": "Tom McCarthy",
+        "trailer": "https://www.youtube.com/watch?v=Qnk2h3ep00k",
+        "descricao": "Uma equipe de jornalistas investiga e expõe um escândalo sistemático de abuso, em trabalho que muda vidas."
+    },
+    {
+        "nome": "Divertida Mente",
+        "ano": 2015,
+        "genero": "Animação/Família",
+        "diretor": "Pete Docter, Ronnie del Carmen",
+        "trailer": "https://www.youtube.com/watch?v=KQ0gYc6Jv0k",
+        "descricao": "As emoções dentro da mente de uma menina guiam suas decisões enquanto ela enfrenta mudanças na vida."
+    },
+    {
+        "nome": "O Show de Truman",
+        "ano": 1998,
+        "genero": "Drama/Ficção Científica",
+        "diretor": "Peter Weir",
+        "trailer": "https://www.youtube.com/watch?v=dlnmQbPGuls",
+        "descricao": "Ao descobrir que sua vida é um reality show, um homem decide buscar a verdade sobre seu mundo artificial."
     }
 ]
